@@ -5,7 +5,7 @@
 - [ ] Botão de contato via whatsapp.
 
 # Requisitos não funcionais
-- [?] Integrar ao Google Analytics.
+- [ ] Integrar ao Google Analytics.
 - [x] Utilizar Jekyll.
 - [x] Site responsivo para diversos dispositivos.
 
