@@ -5,9 +5,9 @@
 
 # Requisitos não funcionais
 - [ ] Integrar ao Google Analytics.
-- [ ] Utilizar Jekyll.
+- [x] Utilizar Jekyll.
 - [ ] Site responsivo para diversos dispositivos.
 
 # Regras de négocio
-- [ ] Layout minimalista
+- [x] Layout minimalista
 - [ ] Código comentado para que aplicativos de acessibilidade se adaptem fácilmente e transmitam uma boa experiência ao leitor.
