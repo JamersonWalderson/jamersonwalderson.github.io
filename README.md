@@ -2,7 +2,7 @@
 
 # Requisitos funcionais
 - [x] Botão de contato via e-mail.
-- [ ] Botão de contato via whatsapp.
+- [x] Botão de contato via whatsapp.
 
 # Requisitos não funcionais
 - [x] Integrar ao Google Analytics.
