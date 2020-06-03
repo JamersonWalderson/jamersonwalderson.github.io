@@ -1,11 +1,11 @@
 ## Requisitos da aplicação e notas de desenvolvimento
 
 # Requisitos funcionais
-- [ ] Bptão de contato via e-mail.
-- [ ] Botão de contato via whatsapp.
+- [x] Botão de contato via e-mail.
+- [x] Botão de contato via whatsapp.
 
 # Requisitos não funcionais
-- [ ] Integrar ao Google Analytics.
+- [x] Integrar ao Google Analytics.
 - [x] Utilizar Jekyll.
 - [x] Site responsivo para diversos dispositivos.
 
