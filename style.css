@@ -1,0 +1,26 @@
+.icon-apresentation {
+    font-size: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all .7s;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+  }
+  #apresentation {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('pexels-fauxels-3183183.jpg');
+    color: white;
+  }
+  #portifolio img{
+    width: 100%;
+    height: 13em;
+
+  }
+  @media only screen and (max-width: 768px) {
+    .row-icons {
+      text-align: center;
+
+    }
+
+  }
