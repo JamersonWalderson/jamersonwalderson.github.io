@@ -17,6 +17,11 @@
     height: 13em;
 
   }
+  #portifolio a{
+    text-decoration: none;
+    color: black;
+
+  }
   @media only screen and (max-width: 768px) {
     .row-icons {
       text-align: center;
