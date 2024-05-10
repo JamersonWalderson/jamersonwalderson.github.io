@@ -1,0 +1,22 @@
+name: Deploy Portifolio
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+        env:
+          ssh_private_key: ${{ secrets.SSH_SERVER_KEY }}
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          source: '.'
+          target: '/var/www/html/jamersonwalderson.github.io'
+          flags: '-r'
